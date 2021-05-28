@@ -1,0 +1,14 @@
+nano
+traceroute
+iputils-ping
+net-tools
+man-db
+tree
+dnsutils
+pandoc
+texlive-xetex
+texlive-fonts-recommended
+texlive-generic-recommended
+graphviz
+graphviz-dev
+build-essential

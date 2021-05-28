@@ -1,0 +1,34 @@
+#!/bin/bash
+
+jupyter contrib nbextension install --user
+jupyter nbextension enable --py widgetsnbextension
+jupyter nbextension enable python-markdown/main
+jupyter nbextension enable rubberband/main
+jupyter nbextension enable freeze/main
+jupyter nbextension enable exercise2/main
+jupyter nbextension enable collapsible_headings/main
+jupyter nbextension enable autoscroll/main
+jupyter nbextension enable init_cell/main
+jupyter nbextension enable toggle_all_line_numbers/main
+jupyter nbextension enable runtools/main
+jupyter nbextension enable splitcell/splitcell
+jupyter nbextension enable highlighter/highlighter
+jupyter nbextension     enable --py --sys-prefix appmode
+jupyter serverextension enable --py --sys-prefix appmode
+jupyter nbextension enable --py --sys-prefix ipyvuetify
+jupyter nbextension enable --py --sys-prefix ipyturtle
+jupyter nbextension enable varInspector/main
+jupyter bundlerextension enable --py jupyter_docx_bundler --sys-prefix
+jupyter nbextension install --py jupyter-tabnine
+jupyter nbextension enable --py jupyter_tabnine
+jupyter serverextension enable --py jupyter_tabnine
+jupyter serverextension enable nbgitpuller --sys-prefix
+jupyter nbextension enable --py --sys-prefix ipyevents
+jupyter nbextension install --sys-prefix --py nbgrader --overwrite
+jupyter nbextension enable --sys-prefix --py nbgrader
+jupyter serverextension enable --sys-prefix --py nbgrader
+
+
+# Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
+python3 trust.py
+/bin/bash trust.sh
