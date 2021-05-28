@@ -3,10 +3,10 @@
 
 
 
-### Environnement Jupyter [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jcamponovo/Jupenv/master?urlpath=apps/environnement.ipynb)
+### Environnement Jupyter [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jcamponovo/Jupenv/main?urlpath=apps/environnement.ipynb)
 
 
-### Sommaire du cours [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jcamponovo/Jupenv/master?urlpath=apps/sommaire.ipynb)
+### Sommaire du cours [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jcamponovo/Jupenv/main?urlpath=apps/sommaire.ipynb)
 
 
 
