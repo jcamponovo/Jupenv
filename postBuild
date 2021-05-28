@@ -1,4 +1,6 @@
 #!/bin/bash
+mkdir -p /srv/nbgrader/exchange
+chmod ugo+rw /srv/nbgrader/exchange
 
 jupyter contrib nbextension install --user
 jupyter nbextension enable --py widgetsnbextension
