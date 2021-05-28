@@ -8,7 +8,6 @@ image
 ipyvuetify
 bqplot
 panda
-sqlite3
 
 
 nbconvert
