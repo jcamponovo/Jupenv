@@ -1,12 +1,9 @@
-# NSIterm
+# NSI 1ere
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 
 
 ### Environnement Jupyter [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jcamponovo/Jupenv/main?urlpath=apps/environnement.ipynb)
-
-
-### Sommaire du cours [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jcamponovo/Jupenv/main?urlpath=apps/sommaire.ipynb)
 
 
 
