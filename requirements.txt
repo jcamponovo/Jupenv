@@ -12,6 +12,7 @@ panda
 
 nbconvert
 nbgrader
+nbtutor
 rise
 chardet
 ipyturtle
