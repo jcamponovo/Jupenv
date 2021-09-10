@@ -28,7 +28,8 @@ jupyter nbextension enable --py --sys-prefix ipyevents
 jupyter nbextension install --sys-prefix --py nbgrader --overwrite
 jupyter nbextension enable --sys-prefix --py nbgrader
 jupyter serverextension enable --sys-prefix --py nbgrader
-
+jupyter nbextension install --overwrite --py nbtutor
+jupyter nbextension enable --py nbtutor
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 python3 trust.py
