@@ -34,3 +34,5 @@ jupyter nbextension enable --py nbtutor
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 python3 trust.py
 /bin/bash trust.sh
+
+cp splitcell.js /home/jovyan/.local/share/jupyter/nbextensions/splitcell/
