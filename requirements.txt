@@ -8,7 +8,7 @@ image
 ipyvuetify
 bqplot
 panda
-
+jupyter-wysiwyg
 
 nbconvert
 nbgrader
