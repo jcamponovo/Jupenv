@@ -30,6 +30,8 @@ jupyter nbextension enable --sys-prefix --py nbgrader
 jupyter serverextension enable --sys-prefix --py nbgrader
 jupyter nbextension install --overwrite --py nbtutor
 jupyter nbextension enable --py nbtutor
+jupyter nbextension install --py jupyter_wysiwyg
+jupyter nbextension enable --py jupyter_wysiwyg
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 python3 trust.py
