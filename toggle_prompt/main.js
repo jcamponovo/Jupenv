@@ -3,13 +3,8 @@
 define([
     'jquery',
     'base/js/namespace'
-], function(
-    $,
-    Jupyter
-) {
+], function($, Jupyter) {
     "use strict";
-
-    }
 
     var toggle_all = function() {
         var toolbar_button = $('#toggle_all_prompts');
@@ -20,7 +15,8 @@ define([
         } // define action, register with ActionHandler instance
         else {
             $(".prompt_container").css('visibility', 'collapse');
-        }
+        }};
+
     var action = {
         icon: 'fa-exchange-alt',
         help: 'Toggle prompts in all codecells',
@@ -28,6 +24,7 @@ define([
         id: 'toggle_all_prompts',
         handler: toggle_all
     };
+
     var action_full_name; // will be set on registration
 
     var initialize = function () {
