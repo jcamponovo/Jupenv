@@ -22,7 +22,7 @@ define([
     var action = {
         icon: 'fa-chevron-left',
         help: 'Toggle prompts in all codecells',
-        help_index : 'zz',
+        help_index : 'za',
         id: 'toggle_all_prompts',
         handler: toggle_all
     };
@@ -30,9 +30,6 @@ define([
     var action_full_name; // will be set on registration
 
     var initialize = function () {
-        // update default config vals with the newly loaded ones
-        update_params();
-
         // register actions with ActionHandler instance
         action_full_name = Jupyter.keyboard_manager.actions.register(action, action_name, prefix);
 
