@@ -17,8 +17,10 @@ define([
             $(".prompt_container").css('visibility', 'collapse');
         }};
 
+    var prefix = 'auto';
+    var action_name = 'toggle-all-prompts';
     var action = {
-        icon: 'fa-exchange-alt',
+        icon: 'fa-chevron-left',
         help: 'Toggle prompts in all codecells',
         help_index : 'zz',
         id: 'toggle_all_prompts',
