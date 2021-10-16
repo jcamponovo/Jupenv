@@ -1,0 +1,8 @@
+Type: IPython Notebook Extension
+Name: Toggle prompts
+Description: "Add a toolbar button to toggle all prompts"
+Icon: icon.png
+Link: readme.md
+Main: main.js
+Compatibility: 3.x, 4.x, 5.x
+
