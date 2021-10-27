@@ -9,6 +9,7 @@ ipyvuetify
 bqplot
 panda
 jupyter-wysiwyg
+opencv-contrib-python-headless
 
 nbconvert
 nbgrader
