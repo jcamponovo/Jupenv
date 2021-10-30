@@ -20,7 +20,7 @@ jupyter serverextension enable --py --sys-prefix appmode
 jupyter nbextension enable --py --sys-prefix ipyvuetify
 jupyter nbextension enable --py --sys-prefix ipyturtle
 jupyter nbextension enable varInspector/main
-jupyter nbextension install --py jupyter_tabnine
+jupyter nbextension install --py jupyter-tabnine
 jupyter nbextension enable --py jupyter_tabnine
 jupyter serverextension enable --py jupyter_tabnine
 jupyter serverextension enable nbgitpuller --sys-prefix
@@ -40,9 +40,3 @@ python3 trust.py
 cp splitcell.js /home/jovyan/.local/share/jupyter/nbextensions/splitcell/
 cp -R toggle_prompt /home/jovyan/.local/share/jupyter/nbextensions
 jupyter nbextension enable toggle_prompt/main
-
-easy_install webdavclient
-
-mkdir /home/jovyan/Atrium
-chmod u+s /usr/sbin/mount.davfs
-adduser jovyan davfs2
