@@ -37,3 +37,7 @@ python3 trust.py
 cp splitcell.js /home/jovyan/.local/share/jupyter/nbextensions/splitcell/
 cp -R toggle_prompt /home/jovyan/.local/share/jupyter/nbextensions
 jupyter nbextension enable toggle_prompt/main
+
+mkdir /home/jovyan/Atrium
+chmod u+s /usr/sbin/mount.davfs
+adduser jovyan davfs2
