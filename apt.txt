@@ -18,3 +18,4 @@ libxslt-dev
 python-dev
 libcurl4-openssl-dev
 python-pycurl
+davfs2
