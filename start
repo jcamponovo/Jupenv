@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir /home/jovyan/Atrium
+chmod u+s /usr/sbin/mount.davfs
+adduser jovyan davfs2
+
+exec "$@"
