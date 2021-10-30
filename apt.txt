@@ -17,5 +17,7 @@ libxml2-dev
 libxslt-dev
 python-dev
 libcurl4-openssl-dev
+
 python-pycurl
 davfs2
+cadaver
