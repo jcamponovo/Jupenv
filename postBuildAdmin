@@ -1,0 +1,7 @@
+
+mkdir /home/jovyan/Atrium
+chmod u+s /usr/sbin/mount.davfs
+adduser jovyan davfs2
+
+mkdir -p /srv/nbgrader/exchange
+chmod ugo+rw /srv/nbgrader/exchange
