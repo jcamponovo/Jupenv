@@ -44,4 +44,5 @@ jupyter nbextension enable toggle_prompt/main
 easy_install webdavclient
 
 mkdir /home/jovyan/Atrium
-mount.davfs https://www.atrium-sud.fr/webdav /home/jovyan/Atrium -o rw,uid=jovyan
+chmod u+s /usr/sbin/mount.davfs
+adduser jovyan davfs2
