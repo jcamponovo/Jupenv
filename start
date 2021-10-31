@@ -1,7 +1,6 @@
 #!/bin/bash
+echo "machine www.atrium-sud.fr" > .netrc
+chmod 600 .netrc
 
-mkdir /home/jovyan/Atrium
-chmod u+s /usr/sbin/mount.davfs
-adduser jovyan davfs2
-
+echo "" > datadav
 exec "$@"
