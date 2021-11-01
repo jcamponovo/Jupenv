@@ -3,9 +3,8 @@
 
 
 
-### Environnement Jupyter [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jcamponovo/Jupenv/main?urlpath=apps/environnement.ipynb)  
+### Sommaire et environnement Jupyter [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jcamponovo/Jupenv/main?urlpath=apps/environnement.ipynb)  
   
-### Sommaire [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jcamponovo/Jupenv/main?urlpath=apps/sommaire.ipynb)
 
 
 
