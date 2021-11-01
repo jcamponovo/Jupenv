@@ -12,6 +12,7 @@ texlive-generic-recommended
 graphviz
 graphviz-dev
 build-essential
+zip
 
 libxml2-dev
 libxslt-dev
